@@ -11,6 +11,7 @@ const mpxWebpackPluginConfig = require('./mpx.webpack.conf')
 
 let webpackMainConfig = require('./webpack.conf')
 
+// debugger
 const mainSubDir = ''
 function resolveDist (file, subPathStr = mainSubDir) {
   return path.resolve(__dirname, '../dist', subPathStr, file || '')
